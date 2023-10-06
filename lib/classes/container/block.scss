@@ -1,0 +1,45 @@
+@import "../../themes/index.scss";
+
+.block {
+  @extend .d-block;
+
+  &.hide-on-xl {
+    @extend .d-none-xl, .d-block;
+  }
+
+  &.hide-on-lg {
+    @extend .d-none-lg, .d-block;
+  }
+
+  &.hide-on-md {
+    @extend .d-none-md, .d-block;
+  }
+
+  &.hide-on-sm {
+    @extend .d-none-sm, .d-block;
+  }
+
+  &.hide-on-xs {
+    @extend .d-none-xs, .d-block;
+  }
+
+  &.show-on-xl {
+    @extend .d-block-xl, .d-none;
+  }
+
+  &.show-on-lg {
+    @extend .d-block-lg, .d-none;
+  }
+
+  &.show-on-md {
+    @extend .d-block-md, .d-none;
+  }
+
+  &.show-on-sm {
+    @extend .d-block-sm, .d-none;
+  }
+
+  &.show-on-xs {
+    @extend .d-block-xs, .d-none;
+  }
+}

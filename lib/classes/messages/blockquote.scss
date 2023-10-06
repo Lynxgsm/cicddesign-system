@@ -1,0 +1,40 @@
+@import "../../themes/index.scss";
+
+$decoration-size: 6px;
+
+.blockquote {
+  padding: 16px;
+
+  &.blockquote-decorated-left {
+    border-left: $decoration-size solid;
+  }
+  &.blockquote-decorated-top {
+    border-top: $decoration-size solid;
+  }
+  &.blockquote-decorated-bottom {
+    border-bottom: $decoration-size solid;
+  }
+  &.blockquote-decorated-right {
+    border-right: $decoration-size solid;
+  }
+
+  &.blockquote-info-nebula {
+    @extend .bg-nebula-blue-shades, .text-nebula-blue, .border-nebula-blue;
+  }
+
+  &.blockquote-info {
+    @extend .bg-info-light, .text-info-dark, .border-info-dark;
+  }
+
+  &.blockquote-error {
+    @extend .bg-error-light, .text-error-dark, .border-error-dark;
+  }
+
+  &.blockquote-warning {
+    @extend .bg-alert-light, .text-alert-dark, .border-alert-dark;
+  }
+
+  &.blockquote-success {
+    @extend .bg-success-light, .text-success-dark, .border-success-dark;
+  }
+}

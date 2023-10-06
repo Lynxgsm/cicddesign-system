@@ -1,0 +1,13 @@
+.tile-group {
+    & > button > div{ border-radius: 0px !important; }
+}
+
+.tile-group > button:first-child > div { 
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+}
+
+.tile-group > button:last-child > div { 
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}

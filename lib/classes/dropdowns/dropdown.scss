@@ -1,0 +1,126 @@
+@import "../../themes/index.scss";
+
+.dropdown-wrapper {
+  .dropdown-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  width: max-content;
+  .backdrop {
+    @extend .priority-medium;
+    content: " ";
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(60, 60, 60);
+    opacity: 0;
+    &.backdrop-visible {
+      opacity: 0.4;
+    }
+  }
+
+  .backdrop.close {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .dropdown {
+    @extend .priority-high;
+    background-color: white;
+    padding: 24px 16px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px #00000033;
+    position: fixed;
+    min-width: 130px;
+    width: max-content;
+
+    &.decorated {
+      border-radius: 5px;
+      border-top: 6px solid;
+
+      &.dropdown-black {
+        @extend .border-black;
+        &::before {
+          @extend .bg-black;
+        }
+      }
+
+      &.dropdown-error {
+        @extend .border-danger;
+        &::before {
+          @extend .bg-error;
+        }
+      }
+
+      &.dropdown-nebula-blue {
+        @extend .border-nebula-blue;
+        &::before {
+          @extend .bg-nebula-blue;
+        }
+      }
+
+      &.dropdown-supernova {
+        @extend .border-supernova;
+        &::before {
+          @extend .bg-supernova;
+        }
+      }
+
+      &.dropdown-cobalt {
+        @extend .border-cobalt;
+        &::before {
+          @extend .bg-cobalt;
+        }
+      }
+
+      &.dropdown-comet {
+        @extend .border-comet;
+        &::before {
+          @extend .bg-comet;
+        }
+      }
+
+      &.dropdown-white {
+        @extend .border-white;
+        &::before {
+          @extend .bg-white;
+        }
+      }
+
+      &::before {
+        content: " ";
+        display: block;
+        width: 8px;
+        height: 8px;
+        position: relative;
+        background-color: transparent;
+        transform: rotate(45deg);
+        margin-top: -8px;
+        position: relative;
+        float: left;
+        top: -26px;
+      }
+
+      &.left::before {
+        left: 16px;
+      }
+
+      &.right::before {
+        float: right;
+        right: 16px;
+      }
+    }
+  }
+}

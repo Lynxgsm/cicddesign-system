@@ -1,0 +1,25 @@
+@import "../../themes/index.scss";
+
+.skeleton {
+  background: linear-gradient(
+    -90deg,
+    rgba(201, 201, 210, 0.5) 0%,
+    #d2d2d1 50%,
+    rgba(201, 201, 210, 0.5) 100%
+  );
+
+  background-size: 400% 400%;
+}
+
+.skeleton.animated {
+  animation: move 1.2s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}

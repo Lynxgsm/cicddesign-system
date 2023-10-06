@@ -1,0 +1,45 @@
+@import "../../themes/index.scss";
+
+.collapsible {
+  width: 100%;
+  padding: 16px;
+  .collapsible-header {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  &.collapsible-open {
+    .close-icon {
+      display: none;
+    }
+  }
+
+  &.collapsible-close {
+    .collapsible-body,
+    .open-icon {
+      display: none;
+    }
+  }
+
+  &.collapsible-info-nebula {
+    @extend .bg-nebula-blue-shades, .text-nebula-blue, .border-nebula-blue;
+  }
+  &.collapsible-default {
+    @extend .bg-info-empty, .text-black, .border-info-dark;
+  }
+  &.collapsible-info {
+    @extend .bg-info-light, .text-info-dark, .border-info-dark;
+  }
+
+  &.collapsible-error {
+    @extend .bg-error-light, .text-error-dark, .border-error-dark;
+  }
+
+  &.collapsible-warning {
+    @extend .bg-alert-light, .text-alert-dark, .border-alert-dark;
+  }
+
+  &.collapsible-success {
+    @extend .bg-success-light, .text-success-dark, .border-success-dark;
+  }
+}

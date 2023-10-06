@@ -1,0 +1,47 @@
+@import "../../themes/index.scss";
+
+.badge {
+  gap: $gap-8;
+  padding: 5px $space-8;
+  width: fit-content;
+  border: 1px solid;
+  @extend .border-xs, .medium;
+  &.badge-xs {
+    @extend .text-xs;
+  }
+  &.badge-s {
+    @extend .text-sm;
+  }
+  &.badge-m {
+    @extend .text-md;
+  }
+  &.badge-l {
+    @extend .text-lg;
+  }
+  &.badge-xl {
+    @extend .text-xl;
+  }
+  &.badge-xxl {
+    @extend .text-xxl;
+  }
+
+  &.badge-info-nebula {
+    @extend .bg-nebula-blue-shades, .text-nebula-blue, .border-nebula-blue;
+  }
+
+  &.badge-info {
+    @extend .bg-info-light, .text-info-dark, .border-info-dark;
+  }
+
+  &.badge-error {
+    @extend .bg-error-light, .text-error-dark, .border-error-dark;
+  }
+
+  &.badge-warning {
+    @extend .bg-alert-light, .text-alert-dark, .border-alert-dark;
+  }
+
+  &.badge-success {
+    @extend .bg-success-light, .text-success-dark, .border-success-dark;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../themes/index.scss";
+
+.table {
+  width: 100%;
+  tr {
+    border-bottom: 1px solid #00000033;
+    padding: 12px;
+  }
+  th,
+  td {
+    text-align: start;
+  }
+
+  tfoot {
+    tr {
+      border: none;
+    }
+  }
+}

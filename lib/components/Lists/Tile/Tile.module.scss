@@ -1,0 +1,26 @@
+
+.tile-container{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    text-align: start;
+    width: 100%;
+    &:disabled{
+        color: inherit;
+        background-color: inherit;
+    }
+    &.enabled{
+        .tile{
+            cursor: pointer;
+            transition: background-color 200ms;
+        }
+        .tile:hover{ background-color: #f7f7f7; }
+        &:focus{ outline: 1px solid #97B9EF; }
+    }
+    .tile{
+        padding: 16px;
+        background-color: white;
+        border: 1px solid #e1e1e1;
+        border-radius: 8px;
+    }
+}

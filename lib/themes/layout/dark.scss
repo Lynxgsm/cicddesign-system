@@ -1,0 +1,219 @@
+@import '../colors.scss';
+@import '../font.scss';
+
+/* --------------------- Background --------------------- */
+
+.bg-transparent{ background-color: $transparent; }
+.bg-primary{ background-color: $primary-light; }
+.bg-secondary{ background-color: $secondary-light; }
+.bg-warning{ background-color: $warning-light; }
+.bg-danger{ background-color: $danger-light; }
+.bg-success{ background-color: $success-light; }
+
+// Grey
+.bg-grey-1{ background-color: $grey-1; }
+.bg-grey-2{ background-color: $grey-2; }
+.bg-grey-3{ background-color: $grey-3; }
+.bg-grey-4{ background-color: $grey-4; }
+
+// Neutral
+.bg-black{ background-color: $neutral-darkest; }
+
+.bg-white{ background-color: white; }
+.bg-lighter{ background-color: $neutral-lighter; }
+.bg-light{ background-color: $neutral-light; }
+.bg-disabled-light{ background-color: $disabled-light; }
+.bg-neutral{ background-color: $neutral-neutral; }
+.bg-darker{ background-color: $neutral-darker; }
+.bg-darkest{ background-color: $neutral-darkest; }
+
+// Main Colors
+.bg-supernova{ background-color: $brand-supernova; }
+.bg-supernova-dark{ background-color: $brand-supernova-dark; }
+
+.bg-nebula-blue{ background-color: $brand-nebula-blue; }
+.bg-nebula-blue-dark{ background-color: $brand-nebula-blue-dark; }
+
+.bg-cobalt{ background-color: $brand-cobalt; }
+.bg-cobalt-dark{ background-color: $brand-cobalt-dark; }
+
+.bg-comet{ background-color: $brand-comet; }
+.bg-comet-dark{ background-color: $brand-comet-dark; }
+
+// Other Palet
+.bg-additional-link{ background-color: $additional-link; }
+
+.bg-success-light{ background-color: $system-success-light; }
+.bg-error-light{ background-color: $system-error-light; }
+.bg-alert-light{ background-color: $system-alert-light; }
+.bg-info-light{ background-color: $system-info-light; }
+.bg-nebula-blue-shades{ background-color: $brand-nebula-blue-shades; }
+.bg-info-empty{ background-color: $neutral-white; }
+
+.bg-success-dark{ background-color: $system-success-dark; }
+.bg-error{ background-color: $system-error; }
+.bg-error-dark{ background-color: $system-error-dark; }
+.bg-alert-dark{ background-color: $system-alert-dark; }
+.bg-info-dark{ background-color: $system-info-dark; }
+
+/* --------------------- Border --------------------- */
+
+.border-transparent{ border-color: $transparent; }
+.border-primary{ border-color: $primary-light; }
+.border-secondary{ border-color: $secondary-light; }
+.border-warning{ border-color: $warning-light; }
+.border-danger{ border-color: $danger-light; }
+.border-success{ border-color: $success-light; }
+
+// Grey
+.border-grey-1{ border-color: $grey-1; }
+.border-grey-2{ border-color: $grey-2; }
+.border-grey-3{ border-color: $grey-3; }
+.border-grey-4{ border-color: $grey-4; }
+
+// Neutral
+.border-black{ border-color: $neutral-darkest; }
+
+.border-white{ border-color: white; }
+.border-lighter{ border-color: $neutral-lighter; }
+.border-light{ border-color: $neutral-light; }
+.border-disabled-light{ border-color: $disabled-light; }
+.border-neutral{ border-color: $neutral-neutral; }
+.border-darker{ border-color: $neutral-darker; }
+.border-darkest{ border-color: $neutral-darkest; }
+
+// Main Colors
+.border-supernova{ border-color: $brand-supernova; }
+.border-supernova-dark{ border-color: $brand-supernova-dark; }
+
+.border-nebula-blue{ border-color: $brand-nebula-blue; }
+.border-nebula-blue-dark{ border-color: $brand-nebula-blue-dark; }
+
+.border-cobalt{ border-color: $brand-cobalt; }
+.border-cobalt-dark{ border-color: $brand-cobalt-dark; }
+
+.border-comet{ border-color: $brand-comet; }
+.border-comet-dark{ border-color: $brand-comet-dark; }
+
+// Other Palet
+.border-additional-link{ border-color: $additional-link; }
+
+.border-success-light{ border-color: $system-success-light; }
+.border-error-light{ border-color: $system-error-light; }
+.border-alert-light{ border-color: $system-alert-light; }
+.border-info-light{ border-color: $system-info-light; }
+.border-nebula-blue-shades{ border-color: $brand-nebula-blue-shades; }
+
+.border-success-dark{ border-color: $system-success-dark; }
+.border-error{ border-color: $system-error; }
+.border-error-dark{ border-color: $system-error-dark; }
+.border-alert-dark{ border-color: $system-alert-dark; }
+.border-info-dark{ border-color: $system-info-dark; }
+
+/* --------------------- Text --------------------- */
+
+.text-transparent{ color: $transparent; }
+.text-primary{ color: $primary-light; }
+.text-secondary{ color: $secondary-light; }
+.text-warning{ color: $warning-light; }
+.text-danger{ color: $danger-light; }
+.text-success{ color: $success-light; }
+
+// Grey
+.text-grey-1{ color: $grey-1; }
+.text-grey-2{ color: $grey-2; }
+.text-grey-3{ color: $grey-3; }
+.text-grey-4{ color: $grey-4; }
+
+// Neutral
+.text-black{ color: $neutral-darkest; }
+
+.text-white{ color: white; }
+.text-lighter{ color: $neutral-lighter; }
+.text-light{ color: $neutral-light; }
+.text-disabled-light{ color: $disabled-light; }
+.text-neutral{ color: $neutral-neutral; }
+.text-darker{ color: $neutral-darker; }
+.text-darkest{ color: $neutral-darkest; }
+
+// Main Colors
+.text-supernova{ color: $brand-supernova; }
+.text-supernova-dark{ color: $brand-supernova-dark; }
+
+.text-nebula-blue{ color: $brand-nebula-blue; }
+.text-nebula-blue-dark{ color: $brand-nebula-blue-dark; }
+
+.text-cobalt{ color: $brand-cobalt; }
+.text-cobalt-dark{ color: $brand-cobalt-dark; }
+
+.text-comet{ color: $brand-comet; }
+.text-comet-dark{ color: $brand-comet-dark; }
+
+// Other Palet
+.text-additional-link{ color: $additional-link; }
+
+.text-success-light{ color: $system-success-light; }
+.text-error-light{ color: $system-error-light; }
+.text-alert-light{ color: $system-alert-light; }
+.text-info-light{ color: $system-info-light; }
+.text-nebula-blue-shades{ color: $brand-nebula-blue-shades; }
+
+.text-success-dark{ color: $system-success-dark; }
+.text-error{ color: $system-error; }
+.text-error-dark{ color: $system-error-dark; }
+.text-alert-dark{ color: $system-alert-dark; }
+.text-info-dark{ color: $system-info-dark; }
+
+/* --------------------- Text Child --------------------- */
+
+.text-transparent * { color: $transparent; }
+.text-primary * { color: $primary-light; }
+.text-secondary * { color: $secondary-light; }
+.text-warning * { color: $warning-light; }
+.text-danger * { color: $danger-light; }
+.text-success * { color: $success-light; }
+
+// Grey
+.text-grey-1 * { color: $grey-1; }
+.text-grey-2 * { color: $grey-2; }
+.text-grey-3 * { color: $grey-3; }
+.text-grey-4 * { color: $grey-4; }
+
+// Neutral
+.text-black * { color: $neutral-darkest; }
+
+.text-white * { color: white; }
+.text-lighter * { color: $neutral-lighter; }
+.text-light * { color: $neutral-light; }
+.text-disabled-light * { color: $disabled-light; }
+.text-neutral * { color: $neutral-neutral; }
+.text-darker * { color: $neutral-darker; }
+.text-darkest * { color: $neutral-darkest; }
+
+// Main Colors
+.text-supernova * { color: $brand-supernova; }
+.text-supernova-dark * { color: $brand-supernova-dark; }
+
+.text-nebula-blue * { color: $brand-nebula-blue; }
+.text-nebula-blue-dark * { color: $brand-nebula-blue-dark; }
+
+.text-cobalt * { color: $brand-cobalt; }
+.text-cobalt-dark * { color: $brand-cobalt-dark; }
+
+.text-comet * { color: $brand-comet; }
+.text-comet-dark * { color: $brand-comet-dark; }
+
+// Other Palet
+.text-additional-link * { color: $additional-link; }
+
+.text-success-light * { color: $system-success-light; }
+.text-error-light * { color: $system-error-light; }
+.text-alert-light * { color: $system-alert-light; }
+.text-info-light * { color: $system-info-light; }
+.text-nebula-blue-shades * { color: $brand-nebula-blue-shades; }
+
+.text-success-dark * { color: $system-success-dark; }
+.text-error * { color: $system-error; }
+.text-error-dark * { color: $system-error-dark; }
+.text-alert-dark * { color: $system-alert-dark; }
+.text-info-dark * { color: $system-info-dark; }
