@@ -1,0 +1,38 @@
+{
+  "name": "gekods-react",
+  "version": "0.0.1",
+  "description": "This is an implementation of the Geko Design System",
+  "author": "Lynxgsm <aili.fida.ac@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup lib/index.ts --format cjs,esm --dts",
+    "tsc": "tsc -p . --outDir ./dist",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.11",
+    "@types/react": "^18.2.24",
+    "@types/react-dom": "^18.2.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "ds-core": "workspace:*"
+  }
+}
